@@ -1,0 +1,115 @@
+header{
+    background: rgb(14,100,143);
+    background: linear-gradient(180deg, rgba(14,100,143,1) 13%, rgba(18,105,233,1) 34%, rgba(255,255,255,1) 100%);
+}
+.logo{
+    margin: 25px auto;
+    width: 10%;
+    display: inline-block;
+}
+
+.logo:hover, .logo-in:hover{
+    animation: rotar 2s linear infinite;
+}
+@keyframes rotar {
+    form{
+        transform: rotateY(180deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+h1{
+    display: inline-block;
+    margin-left: 320px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+    text-shadow:
+    -1px -1px 1px #000000,
+    0px 4px 1px rgba(0, 0, 0, 0.5),
+    4px 4px 5px rgba(0, 0, 0, 0.7),
+    0px 0px 7px rgba(0, 0, 0, 0.4);
+}
+
+#encriptado{
+    display: inline-block;
+    position: relative;
+    width: 500px;
+    height: 350px;
+    margin: 50px 100px  auto;
+    padding: 10px 25px;
+    border-radius: 3%;
+    font-size: 25px;
+    resize: none;
+}
+#texto-accion{
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 50px 100px auto;
+    padding: 10px 25px;
+    border-radius: 3%;
+    font-size: 25px;
+    resize: none;
+}
+
+.logo-pelon{
+    display: none;
+    visibility: hidden;
+    position: relative;
+    width: 350px;
+    height: 370px;
+    margin: 50px 100px auto;
+    border-radius: 3%;
+    border: 1px solid #000000;
+
+}
+
+#boton1{
+    display:inline-block;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 1px;
+    width: 19%;
+    height: 30px;
+    font-weight: bolder;
+    border-radius: 8%;
+}
+#boton2{
+    display:inline-block;
+    margin-top: 10px;
+    margin-right:150px;
+    margin-left:150px;
+    width: 19%;
+    height: 30px;
+    font-weight: bolder;
+    border-radius: 8%;
+}
+#boton3{
+    display:inline-block;
+    margin-top: 10px;
+    margin-right: 100px;
+    margin-left:50px;
+    width: 19%;
+    height: 30px;
+    font-weight: bolder;
+    border-radius: 8%;
+}
+
+.logo-in{
+    width: 3%;
+}
+input:hover{
+    transform: scale(1.1);
+    background: #588dff;
+}
+
+footer{
+    background: rgb(14,100,143);
+    background: linear-gradient(0deg, rgba(14,100,143,1) 13%, rgba(18,105,233,1) 34%, rgba(255,255,255,1) 100%);
+    text-align: center;
+    padding: 40px;
+}

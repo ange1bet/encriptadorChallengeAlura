@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+    <body>
+        <head>
+            <meta charset="UTF-8">
+            <title>Challenge Encriptador - Alura</title>
+            <link rel="stylesheet" href="reset.css">
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <header>
+            <a href="https://www.aluracursos.com/"><img src="imagenes/Logo.png" class="logo"></a>
+            <h1>ENCRIPTADOR Y DESENCRIPTADOR</h1>
+        </header>
+        <main>
+            <form>
+                <textarea type="text"; id="encriptado"; id="mi-input"; required; placeholder="Ingrese el texto que desea encriptar o desencriptar en minuscula y sin caracteres especiales"></textarea>
+                <textarea type="text"; id="texto-accion"; readonly="readonly"; class="texto-resultado"></textarea>
+                <img src="imagenes/pelon.png"; id="pelon"; class="logo-pelon">
+                <input onclick=encriptar(); type="button"; value="Encriptar"; id="boton1">
+                <input onclick=desencriptar(); type="button"; value="Desencriptar"; id="boton2">
+                <input onclick=copiar(); type="button"; value="Copiar"; id="boton3">
+            </form>
+        </main>
+        <footer>
+            <a href="https://www.linkedin.com/in/angelbet/"><img src="imagenes/logo-in.png" class="logo-in"></a>
+            <p class="linke";> Challenge encriptador &#174 - 2024</p>
+        </footer>
+        <script src="app.js"></script>
+    </body>
+</html>
